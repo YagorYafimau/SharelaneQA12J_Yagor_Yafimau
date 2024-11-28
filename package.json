@@ -1,11 +1,26 @@
 {
   "name": "sharelaneqa12j_yagor_yafimau",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "test:smoke": "mocha --grep 'smoke'"
   },
   "author": "Yagor Yafimau",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "@types/node": "^22.8.5",
+    "@types/selenium-webdriver": "^4.1.27",
+    "chai": "^4.5.0",
+    "chromedriver": "^131.0.0",
+    "mocha": "^10.8.2",
+    "prettier": "^3.3.3",
+    "selenium-webdriver": "^4.26.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/jest": "^29.5.14",
+    "@types/mocha": "^10.0.10"
+  }
 }
