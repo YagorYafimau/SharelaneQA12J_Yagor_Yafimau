@@ -1,0 +1,11 @@
+{
+  "name": "sharelaneqa12j_yagor_yafimau",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yagor Yafimau",
+  "license": "ISC",
+  "description": ""
+}
